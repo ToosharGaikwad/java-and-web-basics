@@ -4,11 +4,11 @@ public class LongestString {
 	
 	
 	public static String longest(String s) {
-		String[] devide = s.split(" ");
+		String[] words = s.split(" ");
 		
 		String longestword = "";
 		
-		for(String word:devide) {
+		for(String word:words) {
 			
 			if(word.length()>longestword.length()) {
 				longestword = word;
