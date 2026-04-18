@@ -22,7 +22,7 @@ public class Anagram {
 			}
 			for ( int itr=0;itr<freq.length;itr++) {
 				if(freq[itr]!=0) {
-					System.out.println(freq[itr]);
+//					System.out.println(freq[itr]);
 					return false;
 				}
 				
