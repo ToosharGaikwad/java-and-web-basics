@@ -12,8 +12,6 @@ public class reverseNumber {
 			num = num/10;
 			
 			
-			
-			
 			} 
 			System.out.println(reverse);
 	}

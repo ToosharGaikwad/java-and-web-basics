@@ -20,8 +20,6 @@ public class PrimeNumber {
 	                System.out.println(num + " is prime");
 	            }
 	        }
-
-	
 }
 	 
 	 public static void main(String[] args) {

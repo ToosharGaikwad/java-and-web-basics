@@ -1,6 +1,10 @@
 package Array;
 
 public class DuplicateNumber {
+	
+	
+	
+	// count a all unique number 
 
 	public static void dup(int arr[]) {
 		int len = arr.length;
@@ -19,9 +23,22 @@ public class DuplicateNumber {
 			System.out.print(arr[i]+" ");
 			System.out.println(count +" times");				
 		}
-}		
+		
+}	
+	
+	
+	
 	public static void main(String[] args) {
-		int arr[]= {22,4,5,4,22,5,5,5};
+		int arr[]= {22,4,5,4,22,1,5,5,5};
 		dup(arr);
+
 	}
+	
+	
+	
+	
+	
+	
+	
+	
 }

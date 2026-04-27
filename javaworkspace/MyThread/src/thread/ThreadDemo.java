@@ -4,12 +4,20 @@ class worker extends Thread{
 	String number ="13246773";
 	for(int i=0;i<number.length();i++) {
 		System.out.println(number.charAt(i));
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
-			e.printStackTrace();
-		}	
+		
+		if(number.charAt(i)%2==0) {
+			System.out.println(number.charAt(i) + " even num");
+		}
+		
+		
+		
+		
+//		try {
+//			Thread.sleep(1000);
+//		} catch (InterruptedException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}	
 	}
 	
 	}
@@ -25,15 +33,15 @@ public class ThreadDemo {
 		
 		
 		
-		for(int i=0;i<alpha.length();i++) {
-			System.out.println(alpha.charAt(i));
-			try {
-				Thread.sleep(1000);
-			} catch (InterruptedException e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}
-		}
+//		for(int i=0;i<alpha.length();i++) {
+//			System.out.println(alpha.charAt(i));
+//			try {
+//				Thread.sleep(1000);
+//			} catch (InterruptedException e) {
+//				// TODO Auto-generated catch block
+//				e.printStackTrace();
+//			}
+//		}
 		
 
 
