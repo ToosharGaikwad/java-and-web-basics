@@ -12,7 +12,7 @@ class worker1 implements Runnable{
 		e.printStackTrace();
 	}
 	try {
-		Thread.sleep(100);
+		Thread.sleep(10000);
 	} catch (InterruptedException e) {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
@@ -27,20 +27,22 @@ public class demo2 {
 	public static void main(String[] args) {
 		
 		
-		worker1 w1 = new worker1();
-		Thread t1 =new Thread(w1);
-		t1.start();
+//		worker1 w1 = new worker1();
+//		Thread t1 =new Thread(w1);
+		Thread t2 = new Thread(new worker1());
+//		t1.start();
+		t2.start();
 //		w1.run();
-		String alpha ="abcdefghkliei";
-		for(int i=0;i<alpha.length();i++) {
-			System.out.println(alpha.charAt(i));
-		}
-		try {
-			Thread.sleep(500);
-		} catch (InterruptedException e) {
-			
-			e.printStackTrace();
-		}		
+//		String alpha ="abcdefghkliei";
+//		for(int i=0;i<alpha.length();i++) {
+//			System.out.println(alpha.charAt(i));
+//		}
+//		try {
+//			Thread.sleep(500);
+//		} catch (InterruptedException e) {
+//			
+//			e.printStackTrace();
+//		}		
 
 
 	}

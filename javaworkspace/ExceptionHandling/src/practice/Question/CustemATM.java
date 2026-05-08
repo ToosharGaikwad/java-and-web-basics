@@ -39,14 +39,14 @@ class withdraw {
 public class CustemATM {
 
 	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
+		
 		
 		withdraw wd = new withdraw();
 		
 		
 		try
 		{
-			wd.noBalance(11200);
+			wd.noBalance(200);
 			System.out.println();
 		}
 		 catch 

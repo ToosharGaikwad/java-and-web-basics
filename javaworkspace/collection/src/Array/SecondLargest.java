@@ -24,7 +24,7 @@ public class SecondLargest {
 		return secondLarge;
 	}
 	public static void main(String[] args) {
-		int []arr = { 33,1,5,5,79};
+		int []arr = { 33,1,5,5,7};
 		System.out.println(slarge(arr));
 		
 	}

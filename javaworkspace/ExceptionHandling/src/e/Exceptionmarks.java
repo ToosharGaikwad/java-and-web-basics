@@ -10,7 +10,7 @@ class invalidmarks extends Exception {
 	@Override
 	public String getMessage() {
 		// TODO Auto-generated method stub
-		return "no message";
+		return "Check";
 	}
 }
 
@@ -49,7 +49,7 @@ class Exceptionmarks {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		mark i = new mark(113);
+		mark i = new mark(11);
 		
 		
 		try {

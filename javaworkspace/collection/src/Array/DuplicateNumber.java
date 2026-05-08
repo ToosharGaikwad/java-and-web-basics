@@ -4,6 +4,10 @@ public class DuplicateNumber {
 	
 	
 	
+	
+
+
+
 	// count a all unique number 
 
 	public static void dup(int arr[]) {
@@ -26,11 +30,34 @@ public class DuplicateNumber {
 		
 }	
 	
+	public static void removeDuplicate(int arr[]) {
+		int len = arr.length;
+		
+		boolean visited[] = new boolean[len];
+		
+		for(int i=0;i<len;i++)
+		{
+			if(visited[i]) continue;
+			
+			for(int j=i+1;j<len;j++)
+			{
+				if(arr[i]==arr[j])
+				{
+					visited[j]=true;
+					
+				}
+			}
+			System.out.println(arr[i]);
+			
+		}
+	}
+	
 	
 	
 	public static void main(String[] args) {
 		int arr[]= {22,4,5,4,22,1,5,5,5};
-		dup(arr);
+//		dup(arr);
+		removeDuplicate(arr);
 
 	}
 	

@@ -34,4 +34,5 @@ public class NearestNum {
 		System.out.println("The Nearest Number is  " + nearest);
 	}
 
+	
 }
